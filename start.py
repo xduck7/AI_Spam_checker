@@ -5,6 +5,7 @@ from rqst import first_start
 
 
 root= tk.Tk()
+root.title("SPAM CHECKER")
 root.geometry("500x600")
 root.resizable(width=True, height=True)
 
@@ -34,12 +35,12 @@ panel = tk.Label(root, image = smaller_image)
 textBox= tk.Text(root, 
              height=3, width=80, 
              borderwidth=5,
-             font="Arial 30")
+             font="Arial 18")
 
 panel_text = tk.Label(text="Spam checker",
-                   font="Arial 20")
+                   font="Arial 16")
 panel_values = tk.Label(text="✅ = spam \n ❌ = NOT spam",
-                   font="Arial 20")
+                   font="Arial 16")
 
 buttonCommit= tk.Button(root, 
                     height=1, width=10, 
