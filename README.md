@@ -5,8 +5,8 @@
 ---
 ### 📂 Project structure
 - [![Folder Badge](https://img.shields.io/badge/-Folder_"Data"-orange?)](https://github.com/xduck7/AI_Spam_checker/tree/main) **contains data in csv format for training AI**
-- [![Folder Badge](https://img.shields.io/badge/-Folder_"Image"-orange?)](https://github.com/xduck7/AI_Spam_checker/tree/main) contains images for application**
-- [![Folder Badge](https://img.shields.io/badge/-Folder_"Model"-orange?)](https://github.com/xduck7/AI_Spam_checker/tree/main) contains files with AI model, weights, files .pkl to transform numbers into matrices and back**
+- [![Folder Badge](https://img.shields.io/badge/-Folder_"Image"-orange?)](https://github.com/xduck7/AI_Spam_checker/tree/main) **contains images for application**
+- [![Folder Badge](https://img.shields.io/badge/-Folder_"Model"-orange?)](https://github.com/xduck7/AI_Spam_checker/tree/main) **contains files with AI model, weights, files .pkl to transform numbers into matrices and back**
 - [![Python Badge](https://img.shields.io/badge/-Learning.py-darkgreen?style=flat&logo=Python&logoColor=white)](https://github.com/xduck7/AI_Spam_checker/tree/main) **the file in which the AI is trained to recognize spam. AI takes the data for her training from the folder "Data"**
 - [![Python Badge](https://img.shields.io/badge/-Predict.py-darkgreen?style=flat&logo=Python&logoColor=white)](https://github.com/xduck7/AI_Spam_checker/tree/main) **after AI training , the work goes to "Predict.py" a file that works with the same model and files from the folder "Model" that were received after execution "Learning.py"**
 - [![Python Badge](https://img.shields.io/badge/-Rqst.py-darkgreen?style=flat&logo=Python&logoColor=white)](https://github.com/xduck7/AI_Spam_checker/tree/main)
